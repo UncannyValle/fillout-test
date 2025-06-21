@@ -1,7 +1,6 @@
 "use client";
 
 import { Clipboard, Copy, Flag, PencilLine, Trash } from "lucide-react";
-import { blue } from "next/dist/lib/picocolors";
 
 type PopupProps = {
   onMenuClickAction: (action: string) => void;
